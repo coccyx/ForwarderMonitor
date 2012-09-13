@@ -7,7 +7,7 @@
       <param name="maxSize">1</param>
    </module>
    <module name="IFrameInclude" layoutPanel="resultsAreaLeft">
-     <param name="src">forwarderMonitor.html</param>
+     <param name="src">index.html</param>
      <param name="height">auto</param>
    </module>
 </view>
