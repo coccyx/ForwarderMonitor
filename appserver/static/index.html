@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title></title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<link rel="shortcut icon" href="images/a.png" type="image/png">
+	<link rel="stylesheet" href="splunkmap.css" type="text/css" media="all">
+	<script src="/hackathon/jit.js"></script>
+	<script src="/hackathon/spin.js"></script>
+	<script src="/hackathon/jquery-1.8.1.min.js"></script>
+	<script src="/client/splunk.js"></script>
+	<script src="/hackathon/fm.js"></script>
+</head>
+<body>
+	<div id='wrapper'>
+		<div id='sidebar'>
+			<div class="background"></div>
+			<div class="server-name">License Usage</div>
+			<div class="server-info">Usage Today: <span id="server-usage"></span> MB</div>
+			<div class="server-info">Violations remaining: <span id="server-violations">?</span>/<span id="server-max-violations">?</span></div>
+		</div>
+		<div id='menu'>
+			<img src="images/splunk_logo.png" class="logo"></img>
+		</div>
+		<div id="log">&nbsp;</div>
+		<div id='canvas'>&nbsp;</div>
+	</div>
+</body>
+</html>

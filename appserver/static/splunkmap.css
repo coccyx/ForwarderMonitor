@@ -1,0 +1,99 @@
+* {	padding: 0; margin: 0; vertical-align: top; }
+
+body {
+	background: #000 url(images/page_bg.jpg) repeat-x;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+#wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	min-width: 1000px;
+}
+
+#menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 41px;
+	background: url(images/menu_bg.gif);
+}
+
+#menu .logo {
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+#sidebar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+	text-align: right;
+	color: #fff;
+}
+
+#sidebar .background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: 0.33;
+	border-left: 1px solid #000;
+}
+
+#sidebar .server-name {
+	margin: 50px 15px 20px 0;
+	font-size: 32px;
+}
+
+#sidebar .server-info {
+	margin: 10px 15px;
+	font-size: 22px;
+}
+
+.splunk-icon {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+}
+
+.splunk-server {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	background: url(images/splunk_server.png);
+}
+
+.splunk-server .badge {
+	position: absolute;
+	bottom: -3px;
+	right: -3px;
+	width: 24px;
+	height: 24px;
+}
+
+.splunk-server-indexer .badge {
+	background: url(images/badge_index.png);
+}
+
+.splunk-server-forwarder .badge {
+	background: url(images/badge_forward.png);	
+}
+
+#canvas {
+	position: absolute;
+	top: 41px;
+	bottom: 0px;
+	right: 300px;
+	left: 0px;
+}

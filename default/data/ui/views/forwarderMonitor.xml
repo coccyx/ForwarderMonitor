@@ -1,0 +1,13 @@
+<view>
+   <label>Forwarder Monitor</label>
+   <module name="AccountBar" layoutPanel="navigationHeader" />
+   <module name="Message" layoutPanel="messaging">
+      <param name="filter">*</param>
+      <param name="clearOnJobDispatch">False</param>
+      <param name="maxSize">1</param>
+   </module>
+   <module name="IFrameInclude" layoutPanel="resultsAreaLeft">
+     <param name="src">forwarderMonitor.html</param>
+     <param name="height">auto</param>
+   </module>
+</view>
